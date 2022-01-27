@@ -12,10 +12,10 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/dixitdevesh307-/CloudWindows-RDP/main/start.bat-OutFile start.bat
-        Invoke-WebRequest https://github.com/dixitdevesh307/Cloud-Windows-/blob/57a53b03dfaeb548b3d2e7210b4724afea9e5509/wallpaper.png-OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/dixitdevesh307-/CloudWindows-RDP/main/wallpaper.bat-OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/dixitdevesh307-/CloudWindows-RDP/main/loop.bat-OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/dixitdevesh307-/CloudWindows-RDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/dixitdevesh307/Cloud-Windows-/blob/57a53b03dfaeb548b3d2e7210b4724afea9e5509/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/dixitdevesh307-/CloudWindows-RDP/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/dixitdevesh307-/CloudWindows-RDP/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
               Invoke-WebRequest https://raw.githubusercontent.com/NIndo123/GoogleCloud-RDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
